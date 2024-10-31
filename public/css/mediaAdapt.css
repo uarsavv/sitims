@@ -1,0 +1,130 @@
+@media screen and (max-width: 1400px) {
+    /*and (min-width: 1250px)*/
+    .project_inner{
+        height: 470px;
+    }
+    .img_alphabet img{
+        width: 560px;
+        height: 390px;
+        box-shadow: 10px 5px 5px slategray;
+    }
+    .intro_text1{
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width: 1249px) {
+    /*and (min-width: 1105px)*/
+    .img_alphabet img{
+        width: 500px;
+        height: 320px;
+    }
+    .img_alphabet{
+        box-shadow: none;
+    }
+    .project_inner{
+        height: 530px;
+    }
+    .intro_text1{
+        font-size: 3.3rem;
+    }
+    .container {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and (max-width: 1104px) {
+    /*and (min-width: 1000px)*/
+
+    .menu ul li{
+        justify-content: space-between;
+        white-space: nowrap;
+        font-size: 1.3rem;
+        padding-left: 7px;
+    }
+    .img_alphabet img{
+        width: 530px;
+        height: 360px;
+    }
+    .project_inner{
+        height: 590px;
+    }
+    .intro_text1{
+        font-size: 3rem;
+    }
+
+}
+@media screen and (max-width: 1000px) {
+    /*and (min-width: 830px)*/
+    .menu ul{
+        justify-content: space-between;
+    }
+    .menu ul li{
+        padding-right: 45px;
+        padding-left: 25px;
+        white-space: nowrap;
+        font-size: 1.2rem;
+    }
+    .project_inner{
+        height: 700px;
+    }
+    .img_alphabet{
+        max-width: 100%;
+        text-align: center;
+    }
+    .intro_text1{
+        text-align: start;
+    }
+
+}
+@media screen and (max-width: 829px){
+    /*and (min-width: 730px)*/
+
+    .menu ul{
+        justify-content: space-between;
+        display: grid;
+        margin-left: 50px;
+    }
+    .menu ul li{
+        font-size: 1.1rem;
+        padding-right: 45px;
+        padding-left: 25px;
+        white-space: nowrap;
+    }
+    .project_inner{
+        height: 800px;
+    }
+    .intro_text1{
+        text-align: start;
+        font-size: 3.2rem;
+    }
+    .img_alphabet img{
+        width: 400px;
+        height: 240px;
+        padding-left: 3px;
+    }
+    .footer_nav ul{
+        margin-left: 0px;
+    }
+    .footer_logo{
+        width: 150px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 729px) {
+    .menu ul{
+        justify-content: space-between;
+        display: grid;
+        margin-right: 10px;
+    }
+    .menu ul li{
+        padding-left: 10px;
+        white-space: nowrap;
+    }
+    .intro_text1{
+        font-size: 3rem;
+        white-space: normal;
+    }
+    .img_alphabet{
+        margin-top: 250px;
+    }
+
+}
